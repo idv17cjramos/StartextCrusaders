@@ -16,13 +16,13 @@ cuarto::cuarto(int X, int Y) : cuartoX(X) , cuartoY(Y)
 		descripcion = "Ves una wea bonito";
 		break;
 	case enemigo:
-		descripcion = "DO DO DO DO DO DO DO";
+		descripcion = "DO DO DO DO DO DO DO Menacing";
 		break;
 	case vacia:
 		descripcion = "Pues esta bonita... y ya";
 		break;
 	case stand:
-		descripcion = "eSTO ES OBRA DE UN STNAD ENEMIGO";
+		descripcion = "ESTO ES OBRA DE UN STNAD ENEMIGO";
 		break;
 	default:
 		break;

@@ -113,6 +113,7 @@
   <ItemGroup>
     <ClCompile Include="Cuarto.cpp" />
     <ClCompile Include="Jugador.cpp" />
+    <ClCompile Include="ManejadorDeComandos.cpp" />
     <ClCompile Include="Mapa.cpp" />
     <ClCompile Include="RPG.cpp" />
     <ClCompile Include="Source.cpp" />
@@ -120,6 +121,7 @@
   <ItemGroup>
     <ClInclude Include="Cuarto.h" />
     <ClInclude Include="Jugador.h" />
+    <ClInclude Include="ManejadorDeComandos.h" />
     <ClInclude Include="Mapa.h" />
     <ClInclude Include="RPG.h" />
   </ItemGroup>

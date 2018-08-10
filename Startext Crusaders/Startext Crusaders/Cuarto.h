@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <fstream>
 
 enum contenidoHabitacion 
 {
@@ -24,3 +25,11 @@ public:
 	cuarto(int X, int Y);
 	~cuarto();
 };
+
+std::istream & operator >> (std::istream& is, contenidoHabitacion & tipo)
+{
+	int valor;
+	is >> valor;
+	tipo = (contenidoHabitacion)valor;
+	return is;
+}
