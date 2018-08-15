@@ -4,10 +4,9 @@
 #include <time.h>
 #include <Windows.h>
 
-
 int main()
 {
-	srand(time(NULL));
+	/*srand(time(NULL));
 	Jugador prota("Jotaro");//con el parentesis llamamos al otro contructor Jugador que hicimos 
 	cuarto cuartoActual(0,0);
 	Mapa mapaNuevo;
@@ -16,6 +15,10 @@ int main()
 	std::cout << cuartoActual.descripcion <<std::endl;
 	bool canMoveRight, canMoveLeft, canMoveUp, canMoveDown;
 	std::string input;
+
+	Jugador player;
+
+	player.nombreProta = "NotJotaro";
 	while (true)
 	{
 		canMoveDown = canMoveLeft = canMoveRight = canMoveUp = false;
@@ -49,6 +52,6 @@ int main()
 			--prota.posY;
 		system("pause");
 	}
-	system("pause");
+	system("pause");*/
 }
 

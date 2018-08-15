@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
 #include <fstream>
+#include "Objeto.h"
+#include "Enemigo.h"
 
 enum contenidoHabitacion 
 {
@@ -15,6 +17,7 @@ enum contenidoHabitacion
 class cuarto
 {
 public:
+
 	int cuartoX;
 	int cuartoY;
 

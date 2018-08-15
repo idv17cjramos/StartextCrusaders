@@ -22,7 +22,7 @@ void ManejadorDeComandos::guardarPartida()
 
 void ManejadorDeComandos::desplagarMapa()
 {
-	mapa ->printMapa;
+	mapa ->printMapa();
 }
 
 ManejadorDeComandos::ManejadorDeComandos(std::string)
