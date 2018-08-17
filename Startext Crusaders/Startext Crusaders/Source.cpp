@@ -6,7 +6,7 @@
 
 int main()
 {
-	/*srand(time(NULL));
+	srand(time(NULL));
 	Jugador prota("Jotaro");//con el parentesis llamamos al otro contructor Jugador que hicimos 
 	cuarto cuartoActual(0,0);
 	Mapa mapaNuevo;
@@ -52,6 +52,6 @@ int main()
 			--prota.posY;
 		system("pause");
 	}
-	system("pause");*/
+	system("pause");
 }
 
